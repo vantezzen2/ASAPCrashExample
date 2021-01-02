@@ -51,7 +51,7 @@ public class ASAPExampleActivity extends ASAPExampleRootActivity implements ASAP
 
         } else if (view == crashIt) {
 
-            // This will crash other ASAP clients, they don't event need to listen to that URI
+            // This will crash other ASAP clients, they don't even need to listen to that URI
             // 128 bytes
             byte[] byteContent = "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo".getBytes();
 
